@@ -1,7 +1,7 @@
 // AQUÍ VA TU COMPONENTE
 // ¡No olvides exportarlo!
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './RandomColor.css';
 
 function RandomColor() {
