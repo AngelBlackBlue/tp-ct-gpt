@@ -15,7 +15,7 @@ const obtenerPosteo = async (postID) => {
    }
 };
 
-obtenerPosteo(1).then((post) => console.log(post)); // 200 + { object Post 1 }
-obtenerPosteo('Lorem Ipsum').then((post) => console.log(post)); // 404 + null
+// obtenerPosteo(1).then((post) => console.log(post)); // 200 + { object Post 1 }
+// obtenerPosteo('Lorem Ipsum').then((post) => console.log(post)); // 404 + null
 
 module.exports = obtenerPosteo;
